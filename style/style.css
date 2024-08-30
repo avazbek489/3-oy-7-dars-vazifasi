@@ -1,0 +1,174 @@
+@import url("./animated.css");
+
+
+
+/* HEADER QISMI */
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.header__container .header-but {
+    Width: 830px;
+    height: 808px;
+    border: 1px solid #9747FF;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 96px;
+}
+
+.header-but h3 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+
+.header__container .header-but span {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    color: rgba(158, 255, 255, 0.93);
+}
+
+.header-last a {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+/* RESPONSIVE DIZAYN QISMI */
+
+@media (max-width: 1100px) {
+    .header-top {
+        text-align: center;
+        font-size: 40px;
+        width: 800px;
+        font-weight: 0;
+        line-height: 0px;
+    }
+
+
+    .header-but {
+        text-align: center;
+
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-but .head-tittle {
+        font-size: 40px;
+    }
+
+    .header-but span {
+        font-size: 40px;
+
+    }
+
+    .header__container .header-but {
+        Width: 740px;
+        Height: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-center img {
+        width: 130px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+
+    .header__container .header-center img {
+        width: 60px;
+    }
+
+    .header__container .header-but {
+        Width: 550px;
+        Height: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .header-but .head-tittle {
+        font-size: 25px;
+    }
+
+    .header-but .head-tittle span {
+        font-size: 25px;
+    }
+
+
+    .header-last a {
+        font-size: 30px;
+        color: #FFFFFF;
+
+    }
+}
+
+@media (max-width: 590px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .header__container .header-center img {
+        width: 40px;
+    }
+
+    .header__container .header-but {
+        Width: 480px;
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        gap: 5px;
+
+    }
+
+    .header-but .head-tittle {
+        font-size: 16px;
+    }
+
+    .header-but .head-tittle span {
+        font-size: 16px;
+    }
+
+
+    .header-last a {
+        font-size: 20px;
+        color: #FFFFFF;
+
+    }
+}
